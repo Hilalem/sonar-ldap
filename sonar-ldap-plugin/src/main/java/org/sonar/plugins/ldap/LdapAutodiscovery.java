@@ -113,7 +113,7 @@ public class LdapAutodiscovery {
       String port = srvData[2];
       String target = srvData[3];
 
-      if (target.endsWith(".")) {
+    /*  if (target.endsWith(".")) {
         target = target.substring(0, target.length() - 1);
       }
       String server = "ldap://" + target + ":" + port;
